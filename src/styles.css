@@ -1,5 +1,9 @@
 html, body{
   margin: 10px;
-  background-color: rgb(128, 128, 128);
+  background-color: rgb( --surface-b  );
   font-family: var( --font-family );
+}
+
+.text-layout {
+  color: var(--text-color)
 }
