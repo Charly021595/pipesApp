@@ -5,16 +5,10 @@ import {BadgeModule} from 'primeng/badge';
 
 // PrimeNg
 import {ButtonModule} from 'primeng/button';
-
-//PrimeNg Panel
 import {CardModule} from 'primeng/card';
-
-//PrimeNg MenuBar
-import {MenubarModule} from 'primeng/menubar';
-// import {MenuItem} from 'primeng/api';
-
-//PrimeNG Fieldset
 import {FieldsetModule} from 'primeng/fieldset';
+import {MenubarModule} from 'primeng/menubar';
+import {ToolbarModule} from 'primeng/toolbar';
 
 
 @NgModule({
@@ -23,7 +17,8 @@ import {FieldsetModule} from 'primeng/fieldset';
     ButtonModule,
     CardModule,
     FieldsetModule,
-    MenubarModule
+    MenubarModule,
+    ToolbarModule
   ]
 })
 export class PrimeNgModule { }
